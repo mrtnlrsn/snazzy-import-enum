@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package snazzy.common;
+
+enum Size {
+  SMALL = 0;
+  MEDIUM = 1;
+  LARGE = 2;
+}
+

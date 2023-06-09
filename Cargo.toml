@@ -6,8 +6,9 @@ description = "Example project using prost-build"
 edition = "2018"
 
 [dependencies]
-bytes = "0.4"
-prost = "0.5"
+prost = "0.11.9"
+prost-types = "0.11.9"
+bytes = "1.4.0"
 
 [build-dependencies]
-prost-build = "0.5"
+prost-build = "0.11.9"
